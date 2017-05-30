@@ -1,0 +1,295 @@
+@media (max-width: 999px) {
+	footer {
+		padding: 0 20px 0;
+		box-sizing: border-box;
+	}
+}
+
+@media (max-width: 840px) {
+	footer {
+		text-align: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-feedback {
+		margin-top: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		text-align: center;
+	}
+
+	.footer-feedback__social {
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer-nav {
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	.footer-nav__links {
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.email-feedback {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.email-feedback__title {
+		height: 32px;
+	}
+
+	.email-feedback__button{
+		height: 32px;
+	}
+
+	.footer-rights {
+		margin-top: 80px;
+		display: flex;
+		align-items: center;
+	}
+}
+
+
+@media (max-width: 740px) {
+
+	.intro img {
+		width: 100vw;
+	}
+
+	.header {
+		justify-content: space-between;
+	}
+
+	.main-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main-content__poster {
+		width: 80%;
+		text-align: center;
+	}
+
+	.main-content__poster img {
+		width: 100%;
+		height: 500px;
+		object-fit: contain;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.container {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	justify-content: space-between;
+	padding: 0 20px 0;
+}
+
+
+.header__menu-list {
+	display: flex;
+	padding: 0;
+}
+
+.header__menu-item {
+	text-transform: uppercase;
+	padding-right: 20px;
+}
+
+.header__logo {
+	width: 75px;
+	height: 75px;
+	background-image: url(../image/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	transform: translateX(-50px);
+}
+ 
+.header__search-date {
+	display: flex;
+}
+
+.header__date-picker {
+	width: 35px;
+	height: 35px;
+	/*background-image: url(../image/date.svg);*/
+}
+
+.header__search-form {
+	width: 25px;
+	height: 25px;
+}
+
+.header__date-picker img {
+	width: 25px;
+	height: 25px;
+}
+
+.intro img {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+}
+
+.main-content {
+	padding: 15px;
+	display: flex;
+}
+
+.main-content__poster {
+	min-width: 220px;
+	height: 420px;
+	margin-top: 16px;
+	padding: 0 30px 0;
+}
+
+.main-content__poster img {
+	height: 420px;
+}
+
+.main-content__text {
+	width: 500px;
+	padding: 0 30px 0;
+	margin-left: 20px;
+}
+
+.main-content__social {
+	display: flex;
+	justify-content: flex-start;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.main-content__social_mod {
+	padding-right: 10px;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	height: 160px;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.footer-address {
+	width: 25%;
+}
+
+.footer-address__header {
+	display: flex;
+	width: 25%;
+}
+
+.footer-address__header img {
+	width: 75px;
+	height: 75px;
+	object-fit: contain;
+}
+
+.footer-address__header p {
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+
+.footer-nav {
+	display: flex;
+}
+
+.footer-nav__links{
+	display: flex;
+	padding: 0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.footer-feedback {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer-feedback__social {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	padding: 0;
+}
+
+.footer-feedback__social img{
+	width: 30px;
+	height: 30px;
+}
+
+.email-feedback {
+	display: flex;
+	flex-direction: row;
+}
+
+.email-feedback__title {
+	height: 32px;
+	display: flex;
+	color: #fff;
+	padding: 0 15px 0;
+	text-transform: uppercase;
+	background-color: #00BFFF;
+	align-items: center;
+}
+
+.email-feedback__input {
+	height: 30px;
+	border-radius: 0;
+	border: none;
+	background-color: #eee;
+}
+
+.email-feedback__input:focus {
+	outline: none;
+}
+
+.email-feedback__button {
+	width: 30px;
+	height: 32px;
+	background-color: #00BFFF;
+	border: none;
+}
+
+.footer-rights p{
+	text-align: right;
+}

@@ -2,33 +2,40 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
 	<title>Test</title>
 </head>
 <body>
-	<header>
-		<div class="header">
-			<nav class="header__menu">
-				<ul class="header__menu-list">
-					<li class="header__menu-item">о нас</li>
-					<li class="header__menu-item">события</li>
-					<li class="header__menu-item">организации</li>
-				</ul>
-			</nav>
-			<div class="header__logo">
-				<img src="image/logo.png" alt="logo">
+	<div class="container">
+		<header>
+			<div class="header">
+				<nav class="header__menu">
+					<ul class="header__menu-list">
+						<li class="header__menu-item">о нас</li>
+						<li class="header__menu-item">события</li>
+						<li class="header__menu-item">организации</li>
+					</ul>
+				</nav>
+				<div class="header__logo">
+				</div>
+				<div class="header__search-date">
+					<div class="header__date-picker">
+						<img src="image/date.svg" alt="date">
+					</div>
+					<div class="header__search-form">
+						<img src="image/search.svg" alt="search">
+					</div>
+				</div>
 			</div>
-			<div class="header__search-date">
-				<input class="header__date-picker">
-				<input class="header__search-form">
+		</header>
+		</div>
+		<div>
+			<div class="intro">
+				<img src="image/intro.png" alt="intro-img">
 			</div>
 		</div>
-	</header>
-	<div>
-		<div class="intro">
-			<img src="image/intro.png" alt="intro-img">
-		</div>
-	</div>
-	<div>
+		<div class="container">
 		<div class="main-content">
 			<div class="main-content__poster">
 				<img src="image/poster.png" alt="poster">
@@ -52,14 +59,62 @@
 				Правила регистрации http://stlcampreginfo.plp7.ru 
 				Торопитесь! Количество мест ограничено!</p>
 				<br>
-				<ul class="main_content__social">
-					<li><a href="#"><img src="image/vk.png" alt="vk"></a></li>
-					<li><a href="#"><img src="image/facebook.png" alt="facebook"></a></li>
-					<li><a href="#"><img src="image/twitter.png" alt="twitter"></a></li>
-					<li><a href="#"><img src="image/google-plus.png" alt="google-plus"></a></li>
+				<ul class="main-content__social">
+					<li class="main-content__social main-content__social_mod"><a href="#"><img src="image/vk.png" alt="vk"></a></li>
+					<li class="main-content__social main-content__social_mod"><a href="#"><img src="image/facebook.png" alt="facebook"></a></li>
+					<li class="main-content__social main-content__social_mod"><a href="#"><img src="image/twitter.png" alt="twitter"></a></li>
+					<li class="main-content__social main-content__social_mod"><a href="#"><img src="image/google-plus.png" alt="google-plus"></a></li>
 				</ul>
 			</div>
 		</div>
+		<br>
+		<br>
+		<br>
+		<hr>
+		<footer>
+			<div class="footer-address">
+				<div class="footer-address__header">
+					<img src="image/logo.png" alt="logo">
+					<p>объединенная еврейская община украины</p>
+				</div>
+				<div class="footer_address__location">
+					<p>Украина, 49000, г. Днепр, <br>
+					ЕКЦ "Менора", оф. 1212 <br>
+					ул. Шолом-Алейхема, 4/26</p>
+				</div>
+			</div>
+			<div class="footer-contacts">
+				<h3>Контакты</h3>
+				<p>Телефоны <br>
+				с мобильного: 910 <br>
+				с домашнего: 0 800 600 910</p>
+				<p>E-mail <br>
+				ujew@ujew.com.ua</p>
+			</div>
+			<div class="footer-nav">
+				<ul class="footer-nav__links">
+					<li class="footer-nav__links footer-nav__links_non-style"><a href="#">Главная</a></li>
+					<li class="footer-nav__links footer-nav__links_non-style"><a href="#">События</a></li>
+					<li class="footer-nav__links footer-nav__links_non-style"><a href="#">Организации</a></li>
+				</ul>
+			</div>
+			<div class="footer-feedback">
+				<ul class="footer-feedback__social">
+					<li><a href="#"><img src="image/twi.svg" alt="twitter"></a></li>
+					<li><a href="#"><img src="image/face.svg" alt="facebook"></a></li>
+					<li><a href="#"><img src="image/insta.svg" alt="instagram"></a></li>
+				</ul>
+				<form class="email-feedback">
+					<div class="email-feedback__title">e-mail</div>
+					<input class="email-feedback__input" type="email">
+					<button class="email-feedback__button"></button>
+				</form>
+				<div class="footer-rights">
+					<p>&#169; All rights reserved. <br>
+					Developed by MB GROUP</p>
+				</div>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>
